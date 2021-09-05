@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Olympics</string>
+    <string name="enter_year_range">Enter year range ex:(2019,2035)</string>
+    <string name="find">Find</string>
+</resources>
