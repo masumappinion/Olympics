@@ -39,7 +39,7 @@
         android:id="@+id/tv_total_relax"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="total relax event"
+        android:text="total relax start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/tv_total_event"
         app:layout_constraintTop_toBottomOf="@+id/tv_total_event" />
