@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener {
             if (binding.editText.text.toString() == "") {
                 Toast.makeText(this, "please input year range", Toast.LENGTH_LONG).show()
+                return@setOnClickListener
             }
             var dateRange = binding.editText.text.toString()
             try {
                 var dateArray = dateRange.split(",")
                 calculateEvent(Integer.parseInt(dateArray[0]), Integer.parseInt(dateArray[1]))
-            }
-            catch (e :Exception){
+            } catch (e: Exception) {
                 Toast.makeText(this, "please Enter valid year range", Toast.LENGTH_LONG).show()
             }
 
